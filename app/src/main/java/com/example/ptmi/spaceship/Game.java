@@ -91,7 +91,7 @@ public class Game extends Thread {
         Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.spaceship);
         ship= new Sprite(bitmap);
         rocket = new Sprite(BitmapFactory.decodeResource(context.getResources(), R.drawable.bullet));
-        rocket2 = new Sprite(BitmapFactory.decodeResource(conte     xt.getResources(), R.drawable.bullet2));
+        rocket2 = new Sprite(BitmapFactory.decodeResource(context.getResources(), R.drawable.bullet2));
         alien1 = new Sprite(BitmapFactory.decodeResource(context.getResources(), R.drawable.alien1));
         asteroid = new Sprite(BitmapFactory.decodeResource(context.getResources(), R.drawable.asteroid));
     }
